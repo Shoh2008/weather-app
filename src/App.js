@@ -141,7 +141,7 @@ const App = () => {
   const date = new Date();
 
   return (
-    <div style={{height: "110vh"}} className='w-full h-screen bg-gradientBg bg-no-repeat bg-cover bg-center flex flex-col justify-center px-4 lg:px-0'>
+    <div style={{height: "110vh"}} className='w-full h-screen bg-gradientBg bg-no-repeat bg-cover bg-center flex flex-col items-center justify-center px-4 lg:px-0'>
       {errorMsg && (
         <div className='w-full max-w-[90vw] lg:max-w-[450px] bg-[#ff208c] text-white absolute top-2 lg:top-10 p-4 capitalize rounded-md'>{`${errorMsg.response.data.message}`}</div>
       )}
